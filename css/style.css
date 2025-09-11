@@ -45,7 +45,7 @@ html {
 
 /* Navigation */
 .navbar {
-  background: rgba(0, 0, 0, 0.95) !important;
+  background: rgba(0, 0, 0, 0) !important;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
   padding: 1rem 0;
@@ -106,8 +106,11 @@ html {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 100vh;
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;  
   display: flex;
   align-items: center;
   position: relative;
@@ -584,6 +587,13 @@ html {
 }
 
 /* Responsive Design */
+@media (max-width: 992px) {
+  .hero-buttons {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;
@@ -595,7 +605,9 @@ html {
   }
   
   .hero-buttons {
-    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
   }
   
   .section-title {
@@ -650,6 +662,7 @@ html {
   }
   
   .hero-buttons {
+    margin-top: 100px;
     flex-direction: column;
     align-items: center;
   }
