@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 phone: phone || 'لم يتم توفيره',
                 service: service,
                 message: message,
-                to_email: 'nageammar628@gmail.com'
+                to_email: 'support@shagafm.com' // استبدل بالبريد الإلكتروني الذي تريد الاستلام عليه
             };
 
             // إرسال إلى Formspree مباشرةً
