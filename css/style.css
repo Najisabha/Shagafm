@@ -11,6 +11,9 @@ body {
   color: #333;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 .marquee-container {
   width: 100%;
   overflow: hidden;
@@ -62,8 +65,8 @@ html {
 }
 
 .logo-img {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: auto;
   margin-left: 10px;
   border-radius: 8px;
 }
@@ -129,6 +132,7 @@ html {
 
 .hero-title {
   font-size: 3.5rem;
+  margin-top: 80px;
   font-weight: 800;
   margin-bottom: 1.5rem;
   line-height: 1.2;
