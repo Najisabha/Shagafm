@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شغف - شركة التصميم الجرافيكي المتخصصة</title>
+    <meta name="description" content="شركة شغف للتصميم الجرافيكي - نقدم خدمات التصميم الإبداعي، الهوية البصرية، تصميم الشعارات، المطبوعات والتصميم الرقمي">
+    <meta name="keywords" content="تصميم جرافيكي، هوية بصرية، شعارات، مطبوعات، تصميم رقمي، إبداع بصري">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet"/>
+    
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.PNG" />
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="img/logo.PNG" alt="شغف" class="logo-img">
+          <span class="brand-text">شغف</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">أعمالنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="hero-title">نحن نخلق <span class="highlight">تصاميم إبداعية</span> استثنائية</h1>
+              <p class="hero-subtitle">شركة شغف للتصميم الجرافيكي - نقدم حلول تصميمية مبتكرة تساعدك على بناء هوية بصرية قوية ومميزة</p>
+              <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary btn-lg">اكتشف خدماتنا</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">ابدأ مشروعك</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <div class="floating-elements">
+                <div class="element element-1"><i class="fas fa-chart-line"></i></div>
+                <div class="element element-2"><i class="fas fa-users"></i></div>
+                <div class="element element-3"><i class="fas fa-mobile-alt"></i></div>
+                <div class="element element-4"><i class="fas fa-globe"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">خدماتنا المتخصصة</h2>
+            <p class="section-subtitle">نقدم مجموعة شاملة من خدمات التصميم الجرافيكي والإبداع البصري</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h4>الهوية البصرية</h4>
+              <p>تصميم هوية بصرية متكاملة تعكس شخصية علامتك التجارية وتترك انطباعاً قوياً</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-pen-fancy"></i>
+              </div>
+              <h4>تصميم الشعارات</h4>
+              <p>إنشاء شعارات إبداعية ومميزة تحمل رسالة علامتك التجارية بطريقة احترافية</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-print"></i>
+              </div>
+              <h4>التصميم المطبوع</h4>
+              <p>تصميم بطاقات العمل، الكتيبات، اللافتات والمواد المطبوعة بجودة عالية</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-ad"></i>
+              </div>
+              <h4>الإعلانات واللافتات</h4>
+              <p>تصميم إعلانات جذابة ولافتات احترافية تلفت الانتباه وتحقق الهدف المطلوب</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-images"></i>
+              </div>
+              <h4>التصميم الرقمي</h4>
+              <p>تصميم محتوى رقمي للوسائط الاجتماعية والمواقع الإلكترونية بأسلوب عصري</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h4>التصميم الإبداعي</h4>
+              <p>حلول تصميمية مبتكرة ومبدعة تناسب جميع احتياجاتك البصرية والتسويقية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h2 class="section-title">لماذا تختار شغف؟</h2>
+              <p class="about-text">نحن فريق من المصممين المحترفين المتحمسين للإبداع والتصميم الجرافيكي. نؤمن بأن كل مشروع فريد ويستحق أفضل الحلول التصميمية المبتكرة.</p>
+              <div class="features-list">
+                <div class="feature-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>خبرة واسعة في التصميم الجرافيكي</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>فريق مصممين محترفين ومبدعين</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>تصاميم مخصصة لاحتياجاتك</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-check-circle"></i>
+                  <span>دعم مستمر ومتابعة دورية</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="stats-container">
+              <div class="row">
+                <div class="col-6 mb-4">
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">مشروع مكتمل</div>
+                  </div>
+                </div>
+                <div class="col-6 mb-4">
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">عميل راضي</div>
+                  </div>
+                </div>
+                <div class="col-6 mb-4">
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-label">سنوات خبرة</div>
+                  </div>
+                </div>
+                <div class="col-6 mb-4">
+                  <div class="stat-item">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">دعم على مدار الساعة</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">شركاء النجاح</h2>
+            <p class="section-subtitle">نفتخر بشراكتنا مع هذه الشركات الرائدة</p>
+          </div>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee-content">
+              <img src="img/shareet/1.svg" alt="1" />
+              <img src="img/shareet/2.svg" alt="2" />
+              <img src="img/shareet/3.svg" alt="3" />
+              <img src="img/shareet/4.svg" alt="4" />
+              <img src="img/shareet/5.svg" alt="5" />
+              <img src="img/shareet/6.svg" alt="6" />
+              <img src="img/shareet/7.svg" alt="7" />
+              <img src="img/shareet/8.svg" alt="8" />
+              <img src="img/shareet/9.svg" alt="9" />
+              <img src="img/shareet/10.svg" alt="10" />
+              <img src="img/shareet/11.svg" alt="11" />
+              <img src="img/shareet/12.svg" alt="12" />
+              <img src="img/shareet/13.svg" alt="13" />
+
+
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">أعمالنا المميزة</h2>
+            <p class="section-subtitle">نماذج من تصاميمنا الإبداعية</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="portfolio-item">
+              <div class="portfolio-image">
+                <img src="https://via.placeholder.com/400x300/007bff/ffffff?text=مشروع+1" alt="مشروع 1">
+                <div class="portfolio-overlay">
+                  <h4>هوية بصرية متكاملة</h4>
+                  <p>تصميم شعار وهوية بصرية لشركة تقنية</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="portfolio-item">
+              <div class="portfolio-image">
+                <img src="https://via.placeholder.com/400x300/28a745/ffffff?text=مشروع+2" alt="مشروع 2">
+                <div class="portfolio-overlay">
+                  <h4>تصميم مطبوعات</h4>
+                  <p>تصميم كتيبات وبطاقات عمل احترافية</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="portfolio-item">
+              <div class="portfolio-image">
+                <img src="https://via.placeholder.com/400x300/dc3545/ffffff?text=مشروع+3" alt="مشروع 3">
+                <div class="portfolio-overlay">
+                  <h4>تصميم إعلانات</h4>
+                  <p>تصميم إعلانات ولافتات جذابة</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-subtitle">نحن هنا لمساعدتك في تحقيق أهدافك التصميمية</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xeolnwvr" method="POST">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input type="text" id="user_name" name="user_name" class="form-control" placeholder="الاسم الكامل" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input type="email" id="user_email" name="user_email" class="form-control" placeholder="البريد الإلكتروني" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input type="tel" id="user_phone" name="user_phone" class="form-control" placeholder="رقم الهاتف">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <select id="service_type" name="service_type" class="form-control" required>
+                    <option value="">اختر الخدمة المطلوبة</option>
+                    <option value="branding">الهوية البصرية</option>
+                    <option value="logo-design">تصميم الشعارات</option>
+                    <option value="print-design">التصميم المطبوع</option>
+                    <option value="advertising">الإعلانات واللافتات</option>
+                    <option value="digital-design">التصميم الرقمي</option>
+                    <option value="creative-design">التصميم الإبداعي</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">إرسال الرسالة</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-brand">
+              <img src="img/logo.PNG" alt="شغف" class="footer-logo">
+              <h4>شغف</h4>
+              <p>شركة التصميم الجرافيكي المتخصصة في تقديم حلول تصميمية مبتكرة تساعدك على بناء هوية بصرية قوية ومميزة.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5>روابط سريعة</h5>
+            <ul class="footer-links">
+              <li><a href="#home">الرئيسية</a></li>
+              <li><a href="#services">الخدمات</a></li>
+              <li><a href="#about">من نحن</a></li>
+              <li><a href="#portfolio">أعمالنا</a></li>
+              <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>خدماتنا</h5>
+            <ul class="footer-links">
+              <li><a href="#">الهوية البصرية</a></li>
+              <li><a href="#">تصميم الشعارات</a></li>
+              <li><a href="#">التصميم المطبوع</a></li>
+              <li><a href="#">الإعلانات واللافتات</a></li>
+              <li><a href="#">التصميم الرقمي</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <h5>تواصل معنا</h5>
+            <div class="contact-info">
+              <!-- for colling-->
+              <a href="tel:+970593626107"><p><i class="fas fa-phone"></i> +970 593626107</p></a>
+              <a href="tel:+970593626108"><p><i class="fas fa-phone"></i> +970 593626108</p></a>
+              <a href="mailto:info@shagafm.com"><p><i class="fas fa-envelope"></i> |info@shagafm.com</p></a>
+              <a href="mailto:udye@shagafm.com"><p><i class="fas fa-envelope"></i> |udye@shagafm.com</p></a>
+              <p><i class="fas fa-map-marker-alt"></i> فلسطين - طولكرم -شارع العليمي - محمع المدينة - الطابق الرابع</p>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="copyright">&copy; <span id="copy-right"></span> شغف. جميع الحقوق محفوظة.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
