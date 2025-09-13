@@ -112,7 +112,7 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;  
+  height: 90vh;  
   display: flex;
   align-items: center;
   position: relative;
@@ -273,7 +273,7 @@ html {
 
 .section-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: #f1f1f1;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -283,7 +283,9 @@ html {
   background: linear-gradient(to top, #281E29, #0D1C38);
   padding: 80px 0;
 }
-
+.services-section h4 {
+  color: #000000 !important;
+}
 .service-card {
   background: #fff;
   padding: 2.5rem 2rem;
@@ -337,7 +339,7 @@ html {
 
 .about-text {
   font-size: 1.1rem;
-  color: #666;
+  color: #f1f1f1;
   margin-bottom: 2rem;
   line-height: 1.8;
 }
@@ -387,7 +389,7 @@ html {
 
 .stat-label {
   font-size: 0.9rem;
-  color: #666;
+  color: #f1f1f1;
   font-weight: 500;
 }
 
@@ -561,10 +563,11 @@ html {
 
 .social-links a {
   display: inline-block;
+  font-size: 24px;
   width: 40px;
   height: 40px;
   background: #fff;
-  color: #fff;
+  color: #000000;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
